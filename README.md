@@ -4,15 +4,13 @@ Este projeto é uma Landing Page de apresentação pessoal desenvolvida como par
 
 O projeto foi construído utilizando tecnologias web fundamentais de forma nativa e conta com uma interface moderna com temática escura em tons de roxo, organizada de maneira responsiva.
 
-* Tecnologias Utilizadas
+* Tecnologias Utilizadas:
 
 * HTML: Estruturação semântica da Landing Page;
 * CSS3: Estilização personalizada, Grid Layout, Flexbox e definição da paleta de cores roxa;
 * JavaScript: Consumo de APIs externas.
 
-* Requisitos Implementados
-
-Conforme os critérios estabelecidos para a avaliação N3, a aplicação cumpre as seguintes especificações:
+* Requisitos Implementados:
 
 * Cartão de Visita Acadêmico: Uma seção de apresentação contendo dados institucionais (Instituição, Unidade e Objetivo) posicionada estrategicamente à esquerda no layout principal.
 * Seções Organizadas: Divisão clara do layout entre as seções de "Início" e "Serviços API";
@@ -23,7 +21,7 @@ Conforme os critérios estabelecidos para a avaliação N3, a aplicação cumpre
     * Feriados Nacionais: Lista os principais feriados nacionais de um ano;
 * Versionamento e Deploy: Código preparado para upar no repositório do GitHub e publicação no Vercel.
 
-* Acadêmico
+* Acadêmico:
 
 * Nome: Luiz Gustavo Schirmer Hammes
 * Instituição: Fasipe Jet 
