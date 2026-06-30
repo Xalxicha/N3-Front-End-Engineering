@@ -1,0 +1,245 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: #170234;
+    color: #ffffff; 
+    line-height: 1.6;
+}
+
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+    background-color: #24044d;
+    border-bottom: 1px solid #4a1985;
+}
+
+.logo {
+    font-weight: bold;
+    color: #ffffff; 
+    font-size: 1.2rem;
+    letter-spacing: 1px;
+}
+
+nav a {
+    color: #ffffff;
+    text-decoration: none;
+    margin-left: 20px;
+    font-size: 0.9rem;
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: #ffffff;
+}
+
+
+section {
+    padding: 60px 50px;
+    color:white;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+
+.hero {
+    color:white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+}
+
+.hero-content {
+    color: white;
+    flex: 1;
+}
+
+.badge {
+    background-color: rgba(147, 51, 234, 0.2);
+    padding: 5px 15px;
+    border-radius: 20px;
+    font-size: 0.8rem;
+    display: inline-block;
+    margin-bottom: 20px;
+    border: 1px solid #7e22ce;
+}
+
+.hero h1 {
+    color: white;
+    font-size: 3.5rem;
+    margin-bottom: 20px;
+    line-height: 1.1;
+}
+
+.hero p {
+    color: #ffffff;
+    margin-bottom: 30px;
+}
+
+.social-buttons {
+    color: white;
+    display: flex;
+    gap: 15px;
+}
+
+.btn {
+    display: inline-flex;
+    align-items: center;
+    padding: 10px 20px;
+    color:white;
+    background-color: #3b0764; 
+    text-decoration: none;
+    border-radius: 8px;
+    border: 1px solid #6b21a8;
+    transition: all 0.3s;
+}
+
+.btn:hover {
+    background-color: #581c87;
+}
+
+.btn .icon {
+    margin-right: 8px;
+}
+
+
+.hero-card {
+    background-color: #2e0854; 
+    color: white;
+    padding: 25px;
+    border-radius: 12px;
+    width: 350px;
+    border: 1px solid #581c87;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.3);
+}
+
+.card-header {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 20px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #581c87;
+}
+
+.avatar {
+    width: 50px;
+    height: 50px;
+    background-color: #7e22ce; 
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 1.2rem;
+
+}
+
+.card-title h3 {
+    font-size: 1.1rem;
+    margin-bottom: 2px;
+}
+
+.card-title span {
+    font-size: 0.8rem;
+}
+
+.card-body p {
+    font-size: 0.9rem;
+    margin-bottom: 8px;
+}
+
+.card-body strong {
+    color: #ffffff;
+}
+
+.projects h2, .apis h2 {
+    font-size: 2rem;
+    margin-bottom: 5px;
+}
+
+.projects > p, .apis > p {
+    margin-bottom: 30px;
+}
+
+.project-grid, .api-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+.project-card, .api-card {
+    background-color: #2e0854;
+    padding: 25px;
+    border-radius: 12px;
+    border: 1px solid #581c87;
+    transition: transform 0.3s;
+}
+
+.project-card:hover, .api-card:hover {
+    transform: translateY(-5px);
+}
+
+.project-card h3, .api-card h3 {
+    margin-bottom: 10px;
+}
+
+.project-card p {
+    font-size: 0.9rem;
+}
+
+.api-card input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 6px;
+    border: 1px solid #581c87;
+    background-color: #170234;
+    outline: none;
+}
+
+.api-card input:focus {
+    border-color: #9333ea;
+}
+
+.api-card button {
+    width: 100%;
+    padding: 10px;
+    background-color: #7e22ce;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+.api-card button:hover {
+    background-color: #9333ea;
+}
+
+.resultado-box {
+    margin-top: 15px;
+    padding: 10px;
+    background-color: #170234;
+    border-radius: 6px;
+    font-size: 0.85rem;
+    min-height: 60px;
+    border: 1px solid #581c87;
+    word-wrap: break-word;
+}
+
+footer{
+    background-color: #581c87;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio Acadêmico</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="logo">PORTFÓLIO ACADÊMICO</div>
+        <nav>
+            <a href="#inicio">Início</a>
+            <a href="#projetos">Meus Projetos</a>
+            <a href="#apis">Serviços API</a>
+        </nav>
+    </header>
+
+    <main>
+        <section id="inicio" class="hero">
+            
+            
+            <div class="hero-card">
+                <div class="card-header">
+                    <div class="avatar">LG</div>
+                    <div class="card-title">
+                        <h3>Luiz Gustavo Schirmer Hammes</h3>
+                        <span>Aspirante a Desenvolvedor</span>
+                    </div>
+                </div>
+                <div class="card-body">
+                    <p><strong>Instituição:</strong> UNIFASIPE JET</p>
+                    <p><strong>Unidade:</strong> Sinop - MT</p>
+                    <p><strong>Objetivo:</strong> Desenvolver uma Landing Page simples de introdução profissional</p>
+                </div>
+            </div>
+
+            
+            <div class="hero-content">
+                <h1>Sobre mim</h1>
+                <p>Formado no Instituto Federal de Mato Grosso  no curso de Automação Industrial integrado ao ensino médio, desenvolvi interesse pela área da programação e desenvolvimento de sites e ferramentas digitais. Portanto, essa Landing Page atual desenvolve o papel de ser um "currículo virtual" sobre o que aprendi ao longo do primeiro semestre de 2026, na matéria de Front-End Engineering, lecionada pelo docente Willian Hübner.</p>
+                <div class="social-buttons">
+                    <a href="https://github.com/Xalxicha" class="btn btn-github">
+                         GitHub
+                    </a>
+                    <a href="https://www.instagram.com/luiz_hammes_?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" class="btn btn-instagram">
+                        Instagram
+                    </a>
+                </div>
+            </div>
+            
+        </section>
+
+    
+
+        <section id="apis" class="apis">
+            <h2>Features do BrasilAPI</h2>
+            <p>Demonstração de 3 serviços disponibilizados pelo BrasilAPI.</p>
+            <div class="api-grid">
+                
+                <div class="api-card">
+                    <h3>1. Consultar CEP</h3>
+                    <input type="text" id="cep-input" placeholder="Apenas números (Ex: 78550000)" maxlength="8">
+                    <button onclick="consultarCEP()">Buscar CEP</button>
+                    <div id="cep-resultado" class="resultado-box">Resultado aparecerá aqui...</div>
+                </div>
+
+                <div class="api-card">
+                    <h3>2. Consultar DDD</h3>
+                    <input type="text" id="ddd-input" placeholder="Ex: 66" maxlength="2">
+                    <button onclick="consultarDDD()">Buscar Estados</button>
+                    <div id="ddd-resultado" class="resultado-box">Resultado aparecerá aqui...</div>
+                </div>
+
+                <div class="api-card">
+                    <h3>3. Feriados Nacionais</h3>
+                    <input type="text" id="ano-input" placeholder="Ex: 2024" maxlength="4">
+                    <button onclick="consultarFeriados()">Buscar Feriados</button>
+                    <div id="feriados-resultado" class="resultado-box">Resultado aparecerá aqui...</div>
+                </div>
+
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        Desenvolvido por: Luiz Gustavo Schirmer Hammes
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
